@@ -175,12 +175,6 @@ MonoBehaviour:
   _connectorsLayer:
     serializedVersion: 2
     m_Bits: 64
---- !u!1 &303194583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4420021947619040812, guid: 368457728b5d74561b805d9bb789017e,
-    type: 3}
-  m_PrefabInstance: {fileID: 4796405414607977316}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &322515852
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +226,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1000, y: 1, z: 1000}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!4 &322515855
 Transform:
   m_ObjectHideFlags: 0
@@ -372,21 +366,6 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 4796405414607977316}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1249701827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303194583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a305bb44636b69a4f8972cff0b55d9e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _camera: {fileID: 1249701824}
-  _worldPlane: {fileID: 322515853}
-  _settingsExtended: {fileID: 11400000, guid: fe45d8a2acc47234db127ffda565d03e, type: 2}
 --- !u!1 &1527948734
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,11 +515,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4420021947619040812, guid: 368457728b5d74561b805d9bb789017e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1249701827}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 368457728b5d74561b805d9bb789017e, type: 3}
 --- !u!114 &6028497668954075819
 MonoBehaviour:

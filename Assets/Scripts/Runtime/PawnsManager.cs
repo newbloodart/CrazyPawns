@@ -66,7 +66,7 @@ namespace CrazyPawn
         {
             _connectionsManager.CancelPendingConnection();
             _dragOffset = _worldPlane.TryGetPointOnPlaneFromMousePosition(out Vector3 point) 
-                ? pawn.transform.position - point 
+                ? pawn.GetCenter() - point 
                 : Vector3.zero;
         }
 
